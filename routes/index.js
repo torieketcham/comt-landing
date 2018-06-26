@@ -109,7 +109,7 @@ router.get('/projects/:title_key/:dataset', function(req, res, next) {
 /* GET comt model viewer redirect. */
 router.get('/model_viewer', function(req, res, next) {
   res.writeHead(301,
-    {Location: 'http://oceansmap.com/comt/'}
+    {Location: 'https://comt.ioos.us/map'}
   );
   res.end();
 });

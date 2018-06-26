@@ -1,11 +1,11 @@
 {
   "name": "ioos-us",
   "version": "0.0.1",
-  "homepage": "https://github.com/ioos/ioos-us",
+  "homepage": "https://github.com/ioos/comt-landing",
   "authors": [
-    "Luke Campbell <luke.s.campbell@gmail.com>"
+    "Ben Adams <ben.adams@rpsgroup.com>"
   ],
-  "description": "The homepage for http://ioos.us/",
+  "description": "The homepage for https://comt.ioos.us",
   "main": "",
   "moduleType": [],
   "license": "MIT",

@@ -1,0 +1,26 @@
+{
+  "name": "comt-landing",
+  "version": "0.0.1",
+  "homepage": "https://github.com/ioos/comt-landing",
+  "authors": [
+    "Ben Adams <ben.adams@rpsgroup.com>"
+  ],
+  "description": "The homepage for https://comt.ioos.us",
+  "main": "",
+  "moduleType": [],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "underscore": "^1.8.3",
+    "font-awesome": "^4.5.0",
+    "masonry": "^4.0.0"
+  }
+}

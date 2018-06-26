@@ -1,0 +1,110 @@
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.5";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+<div id="grid-container" class="container">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-md-6">
+        <button id="search-data-button" class="btn btn-default" type="button" data-toggle="collapse" data-target="#search-input-collapse" aria-expanded="false" aria-controls="search-input-collapse">
+          <span>Search IOOS Data</span>
+        </button>
+        <div class="collapse" id="search-input-collapse">
+          <div class="well">
+            <div class="input-group">
+              <input type="text" class="form-control" placeholder="E.g. environment" aria-describedby="basic-addon">
+              <span class="input-group-btn">
+                <button class="btn btn-default" type="button">
+                  <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+                </button>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <!-- <div class="center-block"> -->
+        <div class="grid" data-masonry='{"itemSelector": ".grid-item", "columnWidth": ".grid-item.onexone"}'>
+          <a class="grid-item twoxone ioos-eds" href="https://eds.ioos.us/">
+            <div class="tile-wrap">
+              <h1>EDS Model Viewer</h1>
+            </div>
+          </a>
+          <a class="grid-item onexone metrics orange" href="//ioos.noaa.gov/about/ioos-by-the-numbers/" target="_blank">
+            <div class="tile-wrap">
+              <h1>IOOS By The Numbers</h1>
+              <span class="glyphicon glyphicon-signal" aria-hidden="true"></span>
+            </div>
+          </a>
+          <a class="grid-item onexone data-discovery aqua" href="https://data.ioos.us">
+            <div class="tile-wrap">
+              <h1>Data Discovery</h1>
+              <span class="glyphicon glyphicon-search" aria-hidden="true"></span>
+            </div>
+          </a>
+          <a class="grid-item twoxone glider-dac" href="https://gliders.ioos.us/">
+            <div class="tile-wrap">
+              <h1>Profiling Gliders</h1>
+            </div>
+          </a>
+          <a class="grid-item twoxtwo sensor-map" href="https://sensors.ioos.us/">
+            <div class="tile-wrap">
+              <h1>Environmental Sensor Map</h1>
+            </div>
+          </a>
+          <a class="grid-item onexone mbon" href="https://mbon.ioos.us">
+            <div class="tile-wrap">
+              <h1>Marine Biodiversity (MBON) Data</h1>
+            </div>
+          </a>
+          <a class="grid-item onexone comt aqua" href="https://comt.ioos.us">
+            <div class="tile-wrap">
+              <h1>Coastal and Ocean Modeling Testbed</h1>
+            </div>
+          </a>
+          <a class="grid-item twoxone atn" href="//atn.ioos.us">
+            <div class="tile-wrap">
+              <h1>Animal Telemetry Network</h1>
+            </div>
+          </a>
+          <a class="grid-item onexone surf-cam" href="https://ioos.us/surf-cam">
+            <div class="tile-wrap">
+              <h1>Live Surf Camera</h1>
+            </div>
+          </a>
+          <a class="grid-item onextwo regional-associations orange" href="https://ioos.us/regions">
+            <div class="tile-wrap">
+              <h1>Regional Associations</h1>
+            </div>
+          </a>
+          <a class="grid-item onexone data-demo-center" href="https://ioos.github.io/notebooks_demos/" target="_blank">
+            <div class="tile-wrap">
+              <h1>Data Demo Center</h1>
+            </div>
+          </a>
+          <a class="grid-item twoxone hf-radar" href="//hfradar.ioos.us">
+            <div class="tile-wrap">
+              <h1>HF Radar</h1>
+            </div>
+          </a>
+        </div>
+      <!-- </div> -->
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-6 col-md-offset-1">
+      <a class="twitter-timeline" data-dnt="true" href="https://twitter.com/usioosgov" data-widget-id="711944329313574912">Tweets by @usioosgov</a>
+      <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+    </div>
+    <div class="col-md-5">
+      <div class="fb-page" data-href="https://www.facebook.com/usioosgov" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-height="600" data-show-facepile="false"><div class="fb-xfbml-parse-ignore"><blockquote cite="https://www.facebook.com/usioosgov"><a href="https://www.facebook.com/usioosgov">U.S. Integrated Ocean Observing System</a></blockquote></div></div>
+    </div>
+  </div>
+</div>

@@ -1,5 +1,5 @@
 FROM debian:jessie
-MAINTAINER Luke Campbell <luke.campbell@rpsgroup.com>
+MAINTAINER Ben Adams <ben.adams@rpsgroup.com>
 
 ENV NODE_VERSION 7.9.0
 ENV GOSU_VERSION 1.9

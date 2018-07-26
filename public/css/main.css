@@ -937,4 +937,11 @@ img[alt="Modeled Hypoxia for Summer 2015"] {
   font-size: 14px;
 }
 
+.file-access {
+  float: right;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
 /* END comt/projects/:project/:dataset */

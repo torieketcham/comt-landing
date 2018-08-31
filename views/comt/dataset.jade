@@ -11,11 +11,9 @@ block body
         li.active
           !{subProjectTitle}
     div.row
-      h2.text-center= dataset.title
-      p.text-center= dataset.description
+      h2= dataset.title
+      p= dataset.description
       div.media
-        div.media-left
-          img(class='media-object thumbnail', src=dataset.thumbnail)
         div.media-body
           dl.dl-horizontal
             if dataset.temporal !== null

@@ -14,6 +14,18 @@ html(lang="en")
     each js in assets.main.js
       script(type="text/javascript", src=js)
     block js
+
+    // Google Analytics
+    if GOOGLE_ANALYTICS_ID
+        script(src="https://www.googletagmanager.com/gtag/js?id=" + "#{GOOGLE_ANALYTICS_ID}")
+
+    script.
+        if ("#{GOOGLE_ANALYTICS_ID}") {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', "#{GOOGLE_ANALYTICS_ID}");
+        }
   body
 
     include ./header.jade

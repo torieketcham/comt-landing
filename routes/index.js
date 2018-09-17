@@ -4,6 +4,10 @@ const router = express.Router();
 const title = 'The U.S. Integrated Ocean Observing System (IOOS) | ';
 const path = require('path');
 
+/* For development, load local .env file */
+if (process.env.NODE_ENV !== 'production') {
+  require('dotenv').load();
+}
 
 /* GET home page. */
 router.get('/', function(req, res, next) {
@@ -18,7 +22,8 @@ router.get('/', function(req, res, next) {
   });
   res.render('comt/index', {
     title: title + 'Coastal and Ocean Modeling Testbed Projects',
-    projects: projectSnippets 
+    projects: projectSnippets,
+    GOOGLE_ANALYTICS_ID: process.env.GOOGLE_ANALYTICS_ID
   });
 });
 
@@ -60,7 +65,8 @@ router.get('/projects/:title_key', function(req, res, next) {
     },
     title_key: req.params.title_key,
     datasets: projectDatasets,
-    path: req.path
+    path: req.path,
+    GOOGLE_ANALYTICS_ID: process.env.GOOGLE_ANALYTICS_ID
   });
 });
 
@@ -102,7 +108,8 @@ router.get('/projects/:title_key/:dataset', function(req, res, next) {
     dataset: dataset,
     projectTitle: projectTitle,
     title_key: req.params.title_key,
-    subProjectTitle: req.query.t
+    subProjectTitle: req.query.t,
+    GOOGLE_ANALYTICS_ID: process.env.GOOGLE_ANALYTICS_ID
   });
 });
 

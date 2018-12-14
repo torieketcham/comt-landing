@@ -775,6 +775,7 @@ footer path {
 
 nav.nav-list {
   top: 215px;
+  position: unset;
 }
 
 .sidebar .nav > li > a {

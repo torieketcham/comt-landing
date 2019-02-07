@@ -9,7 +9,7 @@
   "dependencies": {
     "assetmanager": "^1.2.2",
     "body-parser": "~1.13.2",
-    "bower": "^1.7.7",
+    "bower": "^1.8.8",
     "cookie-parser": "~1.3.5",
     "debug": "~2.6.9",
     "dotenv": "6.0.0",

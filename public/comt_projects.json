@@ -129,7 +129,7 @@
             },
             "title": "A Unified Framework for IOOS Model Data Access",
             "pubs": null,
-            "team": "<p><b>Project Lead/Scientific PI:</b> Sean C. Arms, UCAR/Unidata</p><p><b>Transition PI:</b> Kyle Wilcox, Axiom Data Science</p><p><b>Other Investigators:</b> DMAC POC Riley Young Morse (Gulf of Maine Research Institute), Robert Beardsley (Woods Hole Oceanographic Institution), Alex Prusevich (University of New Hampshire)</p><p><b>NOAA/NOS Technical Points of Contact:</b> Gregory Seroka, John Kelley, Edward Myers, Aijun Zhang, Jiangtao Xu</p>",
+            "team": "<p><b>Project Lead/Scientific PI:</b> Sean C. Arms, UCAR/Unidata</p><p><b>Transition PI:</b> Kyle Wilcox, Axiom Data Science</p><p><b>NOAA/NOS Technical Points of Contact:</b> Gregory Seroka, John Kelley, Edward Myers, Aijun Zhang, Jiangtao Xu</p>",
             "id": 10,
             "title_key": "data_framework"
         },

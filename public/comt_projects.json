@@ -129,7 +129,7 @@
             },
             "title": "A Unified Framework for IOOS Model Data Access",
             "pubs": null,
-            "team": "<p><b>Project Lead/Scientific PI:</b> Sean C. Arms, UCAR/Unidata</p><p><b>Transition PI:</b> Kyle Wilcox, Axiom Data Science</p><p><b>Other Investigators:</b> DMAC POC Riley Young Morse (Gulf of Maine Research Institute), Robert Beardsley (Woods Hole Oceanographic Institution), Alex Prusevich (University of New Hampshire)</p><p><b>NOAA/NOS Technical Points of Contact:</b> Gregory Seroka, John Kelley, Edward Myers, Aijun Zhang, Jiangtao Xu</p>",
+            "team": "<p><b>Project Lead/Scientific PI:</b> Sean C. Arms, UCAR/Unidata</p><p><b>Transition PI:</b> Kyle Wilcox, Axiom Data Science</p><p><b>NOAA/NOS Technical Points of Contact:</b> Gregory Seroka, John Kelley, Edward Myers, Aijun Zhang, Jiangtao Xu</p>",
             "id": 10,
             "title_key": "data_framework"
         },
@@ -142,7 +142,7 @@
             },
             "title": "Advancing the West Coast Ocean Forecasting System",
             "pubs": null,
-            "team": "<p><b>Project Lead/Scientific PI:</b> Christopher A. Edwards, University of California, Santa Cruz</p><p><b>Transition PI:</b> Clarissa Anderson, SCCOOS</p><p><b>Other Investigators (alpabetically):</b> Eric Bayler (NOAA NESDIS), Jerome Fiechter, Raphael Kudela, Andrew Moore (UC Santa Cruz), Elliott Hazen, Michael Jacox (NOAA NMFS), Alexander Kurapov (OSU/NOAA CSDL), Parker MacCready, Jan Newton (University of Washington/NANOOS), Henry Ruhl (CeNCOOS)</p><p><b>Partners:</b> SCCOOS, CeNCOOS, NANOOS</p><p><b>NOAA/NOS Technical Points of Contact:</b> Edward Myers, Audra Luscher, Carolyn Lindley, Jiangtao Xu</p>",
+            "team": "<p><b>Project Lead/Scientific PI:</b> Christopher A. Edwards, University of California, Santa Cruz</p><p><b>Transition PI:</b> Clarissa Anderson, SCCOOS</p><p><b>Other Investigators (alphabetically):</b> Eric Bayler (NOAA NESDIS), Jerome Fiechter, Raphael Kudela, Andrew Moore (UC Santa Cruz), Elliott Hazen, Michael Jacox (NOAA NMFS), Alexander Kurapov (OSU/NOAA CSDL), Parker MacCready, Jan Newton (University of Washington/NANOOS), Henry Ruhl (CeNCOOS)</p><p><b>Partners:</b> SCCOOS, CeNCOOS, NANOOS</p><p><b>NOAA/NOS Technical Points of Contact:</b> Edward Myers, Audra Luscher, Carolyn Lindley, Jiangtao Xu</p>",
             "id": 11,
             "title_key": "wcofs_advancement"
 },
